@@ -1,0 +1,16 @@
+:root {
+    --bg-black: #011212;
+    --widhei: 100px;
+    --bg-orange: #ff8800;
+}
+
+body {
+    background-color: var(--bg-black);
+}
+
+.ball {
+    width: var(--widhei);
+    height: var(--widhei);
+    background-color: var(--bg-orange);
+    border-radius: var(--widhei - 50px);
+}
