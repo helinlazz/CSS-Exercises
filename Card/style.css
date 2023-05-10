@@ -11,15 +11,23 @@ section {
     background: linear-gradient(#4776e6,#8e54e9);
     text-align: center;
     color:(var(--color));
-    border-radius: 4%;  
+    border-radius: 4%; 
+    width: 400px;
+
 }
 
 h1 {
     text-align: center;
 }
 
+#watch {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
 article {
-    font-weight: 15px;
+    font-weight: 40px;
     color:var(--color);
     text-transform: uppercase;
 }
