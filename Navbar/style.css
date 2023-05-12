@@ -6,11 +6,13 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 nav {
     background-color: #22252A;
     display: flex;
+    width: 100%;
 }
 
 
@@ -47,6 +49,10 @@ nav {
     font-family: var(--font);
 }
 
+#link {
+    color: #9B9E9F;
+}
+
 #dropdown {
     position: relative;
     display: inline-block;
@@ -54,7 +60,7 @@ nav {
 
 #dropdown #drop{
     display: flex;
-    color: var(--white);
+    color: #9B9E9F;
     text-decoration: none;
     font-family: var(--font);
     
@@ -74,7 +80,6 @@ nav {
 #dropdown:hover #content {
     display: block;
     color: #22252A;
-    display: inline-block;
     background-color: #22252A;
     
 }
@@ -86,7 +91,7 @@ nav {
 
 .nav_right {
     display: flex;
-    position: absolute;
+    position: absolute; 
     right: 0;
     top: 18px;
     gap: 20px;
@@ -96,30 +101,23 @@ nav {
 
 input {
     width: 280px;
-    height: 35px;
-    border-radius: 8%;
+    height: 40px;
+    border-radius: 5px;
     border: 2px solid black;
+    width: 250px;
+
 }
 
 button {
     background-color: transparent;
     border: 1px solid green;
     color: green;
-    border-radius: 2px;
+    border-radius: 5px;
+    margin-left: -8px;
   }
   
   button:hover {
     background-color: green;
     color: #faebd7;
 
-  }
-
-  @media only screen and (max-width: 768px) {
-    .nav_left {
-      justify-content: center;
-    }
-  
-    .nav_right {
-      justify-content: center;
-    }
   }

@@ -1,0 +1,60 @@
+section h2:first-child {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 8px;
+  }
+  
+  section{
+    background-color: rgb(89, 170, 232);
+  }
+  
+  #important {
+    background-color: rgb(89, 232, 163);
+  }
+  
+  #important h3:first-of-type {
+    color: white;
+  }
+  
+  .paragraph-xl {
+    font-size: 20px;
+    line-height: 24px;
+  }
+#navbar {
+    background-color: rgb(231, 230, 230);
+}
+  
+  #navbar ul {
+    background-color: rgba(0, 0, 0, 0.38);
+    color: white;
+    list-style-type: none;
+  }
+  
+  .list-item:nth-child(odd) {
+    background-color: rgba(220, 72, 72, 0.552);
+  }
+
+  .list-item:nth-child(even) {
+    background-color: rgb(143, 142, 142);
+  }
+  
+  ul {
+    text-align: center;
+  }
+
+  section h2 {
+    text-align: center;
+    letter-spacing: 5px;
+  }
+
+  section h3 {
+    color: white;
+  }
+
+#second-list {
+    background-color: transparent;
+}
+
+.some {
+    color: black;
+}

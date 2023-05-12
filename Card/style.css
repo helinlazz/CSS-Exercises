@@ -11,7 +11,7 @@ section {
     background: linear-gradient(#4776e6,#8e54e9);
     text-align: center;
     color:(var(--color));
-    border-radius: 4%; 
+    border-radius: 20px; 
     width: 400px;
 
 }

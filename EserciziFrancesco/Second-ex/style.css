@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+#important p:nth-child(2){
+   background-color: green;
+}
+
+#important p:nth-child(3) {
+    background-color: red;
+}
+
+#important p:nth-child(4) {
+    background-color: blue;
+}
+
+p {
+    color: yellow;
+    font-size: 20px;
+}
+
+article p {
+    font-size: 16px;
+}
+
+p > span {
+    background-color: white;
+    color: black;
+    font-size: 24px;
+}

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #4D4DC0;
+    color: white;
+    border:25px solid #008001;
+    border-radius: 50px;
+    margin: 25px;
+    padding: 25px;
+    font-size: 20px;
+
+}
+
+.title {
+    text-align: center;
+    background-color: #CDCD78;
+    width: fit-content;
+    color: black;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-size: 22px;
+}
