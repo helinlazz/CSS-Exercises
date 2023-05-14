@@ -38,7 +38,7 @@ label {
 
 input {
     display: block;
-    border: 1px solid rgb(128, 128, 128, 0.3);
+    border: 1px solid rgba(128, 128, 128, 0.3);
     height: 30px;
     border-radius: 3px;
     width: 210;
@@ -57,9 +57,9 @@ a {
 }
 
 .check input {
-    height: 14px;
+    height: 18px;
     display: inline-block;
-    width: 1em;
+    width: 2em;
     height: 0.9em;
     margin-top: 20px;
     font-size: 10px;
