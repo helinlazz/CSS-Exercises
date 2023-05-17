@@ -13,16 +13,16 @@
     <nav>
         <div class="navbar">
             <div class="nav_left">
-                <span class="logo">Navbar</span>
+                <span><a class="logo" href="./navbar.html">Navbar</a></span>
                 <div class="menu">
                     <div class="menu_item">
                         <a href="#">Home</a>
                     </div>
                     <div class="menu_item">
-                        <a href="#" id="link">Link</a>
+                        <a href="#">Link</a>
                     </div>
                     <div id="dropdown">
-                        <a href="#" id="drop">Dropdown</a>
+                        <a href="#" id="drop">Dropdown <span><img src="arrow.png" alt="arrow"></span></a>
                         <div id="content">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
@@ -36,10 +36,17 @@
 
                 </div>
             </div>
+            <form>
                 <div class="nav_right">
-                    <input type="search" id="search" placeholder="Search">
-                    <button type="submit" id="submit">Search</button>
-                </div>
+                    <div class="nav_search">
+                        <div class="search_wrapper">
+                            <input type="search" id="search" placeholder="Search">
+                            <button class="submit" type="submit" id="submit">Search</button>
+            </form>
+        </div>
+        <button class="hamburger"><img src="hamburger.png"></button>
+        </div>
+        </div>
         </div>
     </nav>
 </body>
