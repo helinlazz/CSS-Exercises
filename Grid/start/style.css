@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    width: 330px;
+    border: 2px solid black; /* da rimuovere */
+    border-radius: 8px; 
+    overflow: hidden;
+}
+
+.screen {
+    background-color: #424C52;
+    height: 50px;
+}
+
+.total {
+    font-size: 30px;
+    padding: 8px;
+    text-align: end;
+    color: white;
+   
+}
+
+
