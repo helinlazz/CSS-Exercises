@@ -2,27 +2,42 @@
   --color: white;
 }
 
-section {
+#card {
   border: 3px solid black;
   display: flex;
-  position: absolute;
-  padding: 0;
-  margin: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
   background: linear-gradient(#4776e6, #8e54e9);
   text-align: center;
   color: var(--color);
   border-radius: 20px;
+  width: 300px; 
   max-width: 100%;
 }
 
-h1 {
-  text-align: center;
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
-
+.title {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
 #watch {
   width: 100%;
   height: auto;
-  max-width: 600px;
+  max-width: 100%; 
+}
+
+#logo {
+  width: 30px; 
+  margin-bottom: 10px;
 }
 
 .card_description {
@@ -32,7 +47,11 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#card .card_items {
+.card_description p {
+  white-space: pre-line;
+}
+
+.card_items {
   color: var(--color);
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
